@@ -1,4 +1,4 @@
-name := "tap-detector"
+name := "__PROJECT_SLUG__"
 
 version := "0.1"
 
