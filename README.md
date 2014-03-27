@@ -1,9 +1,6 @@
+Setup
+=====
 ```bash
-P="my-cool-project" && \
-    git clone git@github.com:mccowan/sbt-java-template.git && \
-    mv sbt-java-template "${P}" && \
-    cd "${P}" && \
-    sed -i -e "s/__PROJECT_SLUG__/${P}/g" build.sbt && \
-    rm -rf .git && \
-    echo "Successfully built ${P}."
+cd ~/my_empty_project_dir
+wget -qO - https://raw.githubusercontent.com/mccowan/sbt-java-template/setup/setup.sh | bash
 ```
