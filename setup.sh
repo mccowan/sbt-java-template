@@ -3,5 +3,5 @@ set -e
 P=$(basename $(pwd))
 git clone git@github.com:mccowan/sbt-java-template.git .
 sed -i -e "s/__PROJECT_SLUG__/${P}/g" build.sbt
-rm -rf .git && \
+rm -rf .git
 echo "Successfully initialized ${P} at $(pwd)."
