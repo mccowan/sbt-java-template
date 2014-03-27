@@ -6,4 +6,4 @@ P="my-cool-project" && \
     sed -i -e "s/__PROJECT_SLUG__/${P}/g" build.sbt && \
     rm -rf .git && \
     echo "Successfully built ${P}."
-    ```
+```
